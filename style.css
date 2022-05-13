@@ -103,8 +103,6 @@ a{
     to{
         transform: scale(1.2);
     }
-
-
 }
 
 
@@ -128,6 +126,9 @@ a{
     filter: saturate(200%) ;
     animation-name: close;
     animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
 }
 
 .header__close-button{
@@ -181,6 +182,8 @@ a{
     filter: saturate(200%) ;
     animation-name: call;
     animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 @keyframes chat {
@@ -193,6 +196,8 @@ a{
     filter: saturate(200%) ;
     animation-name: chat;
     animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 
@@ -206,6 +211,8 @@ a{
     filter: saturate(200%) ;
     animation-name: profile;
     animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .feedback{
