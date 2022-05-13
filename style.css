@@ -100,9 +100,13 @@ a{
 
 
 @keyframes search {
-    to{
+    from{
         transform: scale(1.1);
     }
+    to{
+        transform: scale(1);
+    }
+
 }
 
 
@@ -116,7 +120,9 @@ a{
 .header__search-button:hover{
     filter: saturate(200%) ;
     animation-name: search;
-    animation-duration: 1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
 }
 
 .header__close-button:hover{
