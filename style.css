@@ -120,6 +120,7 @@ a{
     animation-name: search;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
 
 }
 
