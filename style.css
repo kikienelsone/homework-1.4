@@ -100,12 +100,10 @@ a{
 
 
 @keyframes search {
-    from{
-        transform: scale(1.1);
-    }
     to{
-        transform: scale(1);
+        transform: scale(1.2);
     }
+
 
 }
 
