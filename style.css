@@ -118,7 +118,7 @@ a{
 .header__search-button:hover{
     filter: saturate(200%) ;
     animation-name: search;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 
 }
